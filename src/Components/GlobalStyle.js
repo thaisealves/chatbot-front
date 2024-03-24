@@ -25,6 +25,9 @@ time, mark, audio, video {
 	
 }
 html{
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -32,8 +35,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	width: 100%;
-	height: 100vh;
 	line-height: 1;
 	font-family: 'Raleway', sans-serif;; /* putting the same font for the whole code */
 	background-color: #dcf8c6;
@@ -54,6 +55,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-`;
+div {
+	width: 100%;
+	
+};
+`
 
 export default GlobalStyle;
