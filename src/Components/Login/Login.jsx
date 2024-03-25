@@ -3,7 +3,6 @@ import { Container, Forms } from "./LoginStyle";
 import { Link } from "react-router-dom";
 export default function Login() {
     return (<Container>
-        <div>
             <img src={logo} alt="ChatBot Logo" />
             <div>
 
@@ -14,7 +13,6 @@ export default function Login() {
                 </Forms>
                 <Link>Ainda não é cadastrado? Cadastre-se!</Link>
             </div>
-        </div>
 
     </Container>);
 }
